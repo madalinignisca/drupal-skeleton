@@ -1,6 +1,7 @@
 {
     "name": "madalinignisca/drupal-skeleton",
     "description": "Drupal application skeleton",
+    "type": "project",
     "license": "GPL2",
     "authors": [
         {
