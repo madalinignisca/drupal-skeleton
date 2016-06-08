@@ -9,6 +9,8 @@
             "email": "madalin.ignisca@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "repositories": [
         {
             "type": "composer",
@@ -17,7 +19,7 @@
     ],
     "require": {        
         "composer/installers": "^1.0.20",
-        "drupal/core": "8.1.*"
+        "drupal/core": "~8.1"
     },
     "replace": {
         "drupal/drupal": "~8.1"
