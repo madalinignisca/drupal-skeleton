@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e774ca9ba7b5ab1d6f50712c712413a0",
-    "content-hash": "ccee5ac1c0f0f986fbd0bb951d872314",
+    "hash": "b26a5ffad36fb445ddc4576cb8569ace",
+    "content-hash": "5d823b9439410a396afc375cccfff886",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3987,6 +3987,8 @@
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^5.5.9 || ^7.0"
+    },
     "platform-dev": []
 }
