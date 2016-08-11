@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ea727ab81aba84f3806469a0d14efc4e",
-    "content-hash": "aa1062ad5c6f60cee86b4e9f37d77a31",
+    "hash": "c4bbb86c4cb2c59708240406b6d706d8",
+    "content-hash": "bd85b01c3b1cfce8d5fc6bafa1f555e5",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -941,6 +941,41 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "time": "2016-08-03 14:09:08"
+        },
+        {
+            "name": "drupal/drupal-library-installer-plugin",
+            "version": "0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/promet/drupal-libraries-installer-plugin.git",
+                "reference": "6d4eb744a1f244dfc290976104ecf522466a768b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/promet/drupal-libraries-installer-plugin/zipball/6d4eb744a1f244dfc290976104ecf522466a768b",
+                "reference": "6d4eb744a1f244dfc290976104ecf522466a768b",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Drupal\\Composer\\DrupalLibraryInstallerPlugin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "Drupal\\Composer": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Allan Chappell",
+                    "email": "generalredneck@gmail.com"
+                }
+            ],
+            "time": "2015-12-04 21:39:03"
         },
         {
             "name": "easyrdf/easyrdf",

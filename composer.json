@@ -21,7 +21,8 @@
         "php": "^5.5.9 || ^7.0",
         "composer/installers": "^1.0.20",
         "drupal/core": "~8.1",
-        "drupal/console": "~1.0"
+        "drupal/console": "~1.0",
+        "drupal/drupal-library-installer-plugin": "^0.3.0"
     },
     "replace": {
         "drupal/drupal": "~8.1"
@@ -32,6 +33,10 @@
             "web/modules/contrib/{$name}": ["type:drupal-module"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "web/profiles/{$name}": ["type:drupal-profile"]
+        },
+        "drupal-libraries": {
+            "library-directory": "web/libraries",
+            "libraries": [ ]
         }
     }
 }
