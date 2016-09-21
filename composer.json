@@ -22,7 +22,16 @@
         "composer/installers": "^1.2.0",
         "drupal/core": "~8.1.0",
         "drupal/console": "~1.0.0",
-        "drupal/drupal-library-installer-plugin": "~0.3.0"
+        "drupal/drupal-library-installer-plugin": "~0.3.0",
+        "drupal/entity_browser": "~1.0.0",
+        "drupal/ctools": "~3.0.0",
+        "drupal/token": "~1.0.0",
+        "drupal/embed": "~1.0.0",
+        "drupal/entity_embed": "~1.0.0",
+        "drupal/dropzonejs": "~1.0.0",
+        "enyo/dropzone": "~4.3.0",
+        "drupal/inline_entity_form": "~1.0.0",
+        "drupal/devel": "~1.0.0"
     },
     "replace": {
         "drupal/drupal": "~8.1"
@@ -36,7 +45,12 @@
         },
         "drupal-libraries": {
             "library-directory": "web/libraries",
-            "libraries": [ ]
+            "libraries": [
+                {
+                    "name": "dropzone",
+                    "package": "enyo/dropzone"
+                }
+            ]
         }
     }
 }
